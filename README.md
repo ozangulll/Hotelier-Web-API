@@ -38,7 +38,15 @@ Hotelier Web API simplifies the process of building hotel management application
 
 To run Hotelier Web API locally, follow these steps:
 
-1. Clone the repository:
-
 ```bash
 git clone https://github.com/ozangulll/Hotelier-Web-API.git
+
+Open the solution file (Hotelier-Web-API.sln) in Visual Studio.
+
+Build the solution to restore NuGet packages and compile the project.
+
+Set up the database connection string in the Web.config file.
+
+Run the application using the local development server provided by Visual Studio.
+
+Access the API at http://localhost:<port>/api.
